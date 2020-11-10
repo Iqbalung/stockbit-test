@@ -3,7 +3,7 @@ function findFirstStringInBraket(str){
       var firstbracket = strstr(str, '(');
       if(firstbracket){
          firstbracket = ltrim(firstbracket,'(')
-         return strstr(fristracket,')',true)
+         return strstr(firstbracket,')',true)
       }else{
          return ''
       }
